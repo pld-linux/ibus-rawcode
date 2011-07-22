@@ -1,0 +1,11 @@
+diff -rup ibus-rawcode-1.3.1.20100707/src/engine.c ibus-rawcode-1.3.1.20100707_mod/src/engine.c
+--- ibus-rawcode-1.3.1.20100707/src/engine.c	2010-07-07 12:46:55.000000000 +0530
++++ ibus-rawcode-1.3.1.20100707_mod/src/engine.c	2010-11-08 13:25:31.000000000 +0530
+@@ -1,7 +1,6 @@
+ /* vim:set et sts=4: */
+ 
+ #include <ibus.h>
+-#include <ibusengine.h>
+ #include <string.h>
+ #include "engine.h"
+ #include <glib.h>
