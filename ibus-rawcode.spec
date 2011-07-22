@@ -1,7 +1,7 @@
 Summary:	The Rawcode engine for IBus input platform
 Name:		ibus-rawcode
 Version:	1.3.1.20100707
-Release:	0.1
+Release:	1
 License:	GPL v2+
 Group:		Libraries
 Source0:	https://fedorahosted.org/releases/i/b/ibus-rawcode/%{name}-%{version}.tar.gz
