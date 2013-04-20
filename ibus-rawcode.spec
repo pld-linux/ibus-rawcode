@@ -1,13 +1,12 @@
 Summary:	The Rawcode engine for IBus input platform
 Summary(pl.UTF-8):	Silnik Rawcode dla platformy wprowadzania IBus
 Name:		ibus-rawcode
-Version:	1.3.1.20100707
-Release:	2
+Version:	1.3.2
+Release:	1
 License:	GPL v2+
 Group:		Libraries
 Source0:	https://fedorahosted.org/releases/i/b/ibus-rawcode/%{name}-%{version}.tar.gz
-# Source0-md5:	7c7a5444d4e39c1870533aaf3b46e72c
-Patch0:		%{name}-build.patch
+# Source0-md5:	d6b758c092cd70ec2f2c937be77d87cf
 URL:		https://fedorahosted.org/ibus-rawcode/
 BuildRequires:	gettext-devel >= 0.16.1
 BuildRequires:	ibus-devel >= 1.2.99
@@ -28,7 +27,6 @@ kodu.
 
 %prep
 %setup -q
-%patch0 -p1
 
 %build
 %configure
@@ -40,7 +38,7 @@ rm -rf $RPM_BUILD_ROOT
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
-# only single, empty locale exists (as of 1.3.1)
+# only single, empty locale (zh_CN) exists (as of 1.3.1)
 #find_lang %{name}
 
 %clean
