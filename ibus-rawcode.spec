@@ -5,9 +5,9 @@ Version:	1.3.2
 Release:	1
 License:	GPL v2+
 Group:		Libraries
-Source0:	https://fedorahosted.org/releases/i/b/ibus-rawcode/%{name}-%{version}.tar.gz
+Source0:	https://releases.pagure.org/ibus-rawcode/%{name}-%{version}.tar.gz
 # Source0-md5:	d6b758c092cd70ec2f2c937be77d87cf
-URL:		https://fedorahosted.org/ibus-rawcode/
+URL:		https://pagure.io/ibus-rawcode
 BuildRequires:	gettext-tools >= 0.16.1
 BuildRequires:	ibus-devel >= 1.2.99
 BuildRequires:	pkgconfig
