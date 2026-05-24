@@ -2,7 +2,7 @@ Summary:	The Rawcode engine for IBus input platform
 Summary(pl.UTF-8):	Silnik Rawcode dla platformy wprowadzania IBus
 Name:		ibus-rawcode
 Version:	1.3.2
-Release:	1
+Release:	2
 License:	GPL v2+
 Group:		Libraries
 Source0:	https://releases.pagure.org/ibus-rawcode/%{name}-%{version}.tar.gz
